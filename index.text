@@ -4,3 +4,13 @@ I was raised in a small town called kodad, which is in the southern part of Indi
 
 My carrier aspiration is to settle as a Data Scientist  in one of the top MNC companies and after gaining hands of experience, Iam intended to start a company in India.
 
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Denise Case">
+<meta name="description" content="this is my developer page.">
+<title>t.swaroopa</title>
+<link href="css/case.css" rel="stylesheet">
+</head>
+in main
+<main>
+<img src="images/case.jpg" alt="this is my photo.">

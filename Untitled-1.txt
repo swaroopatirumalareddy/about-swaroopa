@@ -1,0 +1,12 @@
+*{
+    padding :2px;
+    margin: 2px;
+
+}
+article{
+    color: green;
+    border:1px solid black
+}
+aside{
+    color: blue;
+}
