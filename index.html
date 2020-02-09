@@ -3,7 +3,7 @@
 
 <html lang="en">
 
-<head
+<head>
  <meta charset="utf-8">
 <meta name="author" content="Swaroopa TirumalaReddy">
 <meta name="description" content="This is my developer page.">
@@ -11,21 +11,39 @@
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Bootstrap core CSS -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.11.0/css/mdb.min.css" rel="stylesheet">
-<link href="styles/thogiti.css" rel="stylesheet">
+<link href="./css/swaroopa.css" rel="stylesheet">
 
 </head>
 
 
 <body>    
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img id="nav_profile_pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9EOPAEicA565IBbWRnw07XnfrUgAiLUrxflfAI_nQc_2CWNOjGw&s" alt="profile picture">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="./index.html">Index</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./checkout.html">checkout</a></li>
+      </ul>
+      </div>
+  </div>
+</nav>
 <header class="page-header noselect fixed" role="banner" id="heading"> 
-<h1>
-<header>Swaroopa TirumalaReddy Module 2: P2 Styled Site</header>
-</h1>
-</header>
-<nav class="navbar tabs">
+  <img id="profile_pic" class="text-center" src="images/swaroopa.jpg" alt="profile picture">
+  <h1 class="text-center">
+  <header>Swaroopa TirumalaReddy Module 2: P2 Styled Site</header>
+  </h1>
+  </header>
+<!-- <nav class="navbar tabs">
 <img id="profile_pic" src="images/swaroopa.jpg" alt="profile picture">
 <br>
 <ul class="navigators ic-app-crumbs">
@@ -39,7 +57,7 @@
 <a href="./checkout.html">checkout</a>
 </li>
 </ul>
-</nav>
+</nav> -->
 <main class="container-fluid">
 <div class="row">
 <article>
@@ -138,10 +156,10 @@
 </div>
 </div>
 </main>
-<footer id="foot">
-<foot>Web page designer for this site is Swaroopa TirumalaReddy</foot>
+<footer class="container" id="foot">
+<div class="text-center">Web page designer for this site is Swaroopa TirumalaReddy
 <br>
-&copy; 2020 Swaroopa TirumalaReddy
+&copy; 2020 Swaroopa TirumalaReddy</div>
 </footer>
 <!-- JQuery -->  
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
