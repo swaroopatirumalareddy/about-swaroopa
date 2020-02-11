@@ -7,7 +7,7 @@ img#nav_profile_pic {
 }
 img#profile_pic {
     border-radius: 50%;
-background-color: red;
+background-color: rgb(29, 189, 238);;
 }
 ul.social-media {
     list-style: none;
