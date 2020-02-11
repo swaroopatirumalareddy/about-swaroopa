@@ -7,6 +7,7 @@ img#nav_profile_pic {
 }
 img#profile_pic {
     border-radius: 50%;
+background-color: red;
 }
 ul.social-media {
     list-style: none;
@@ -21,5 +22,6 @@ footer#foot {
     position: fixed;
     width: 100%;
     border-top: 1px solid #eee;
-    background-color: #fff;
+    background-color: green;
+}
 }
