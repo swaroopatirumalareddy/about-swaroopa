@@ -66,6 +66,20 @@ Result:
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
+<script>
+  function surfaceArea(){
+      let radius = document.getElementById("sphereRadius").value;
+      console.log(radius);
+      let surfaceAreaResult = document.getElementById("surfaceAreaResult");
+      surfaceAreaResult.value = 4* 3.14* radius*radius;
+  }
+  function volume(){
+      let radius = document.getElementById("sphereRadius").value;
+      console.log(radius);
+      let volumeResult = document.getElementById("volumeResult");
+      volumeResult.value = 4* 3.14* radius*radius*radius;
+  }
+</script>
 </body>
 
 </html>
