@@ -38,20 +38,30 @@
 <main class="checkout container">
 <article class="row">
 <div class="col-md-5">
-    <h1>Volume of a Sphere Calculation</h1>
-Calculation = 4/3&pi;r<sup>3</sup>
-<form method="POST">
-Radius:
-<input type="text" name="radius"><br><br>
-<input type="submit" name="submit" value="Calculate">
-<br><br>
-Result:
-<input type="text" name="result">   
-</form>
-</div>
+  <h1>Calculate the Volume and Surface Area of a Sphere</h1>
+  <section class="section-one col-md-6">
+      <h3>Surface Area = 4 × π × r2, Volume = (4/3) × π × r3</h3>
+      <div class="form-group">
+        <label for="pi">Value of π:</label>
+        <input id="pi" class="form-control" type="number" value="3.14" readonly>
+      </div>
+      <div class="form-group">
+        <label for="sphereRadius">Enter the radius:</label>
+        <input id="sphereRadius" class="form-control" type="number" placeholder="Sphere Radius" required>
+      </div>
+      <button class="btn btn-primary" onclick="surfaceArea()">Surface Area</button>
+      <button class="btn btn-primary" onclick="volume()">Volume</button><br><br>
+      <div class="row">
+        <div class="col-md-2">
+          <input class="form-control" type="number" id="surfaceAreaResult">
+        </div>
+        <div class="col-md-2">
+          <input class="form-control" type="number" id="volumeResult">
+        </div>
+      </div>
+  </section>
 </article>
 </main>
-
 <footer class="container" id="foot">
     <div class="text-center">Web page designer for this site is Swaroopa TirumalaReddy
     <br>
