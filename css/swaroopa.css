@@ -22,7 +22,7 @@ footer#foot {
     position: fixed;
     width: 100%;
     border-top: 1px solid #eee;
-    background-color:sienna;
+    background-color:rgb(60, 66, 82);
 }
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
