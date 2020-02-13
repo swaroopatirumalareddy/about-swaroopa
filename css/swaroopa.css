@@ -22,7 +22,7 @@ footer#foot {
     position: fixed;
     width: 100%;
     border-top: 1px solid #eee;
-    background-color: blue;
+    background-color:sienna;
 }
 body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -30,4 +30,7 @@ body {
     line-height: 1.42857143;
     color: #333;
     background-color: palegreen;
+}
+h2{
+background-color:blue;
 }
