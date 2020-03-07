@@ -1,70 +1,66 @@
 
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
+    <head>
+        <title>Contact Me</title>
+        <meta charset="UTF-8"/>
+        <meta name=author content="Swaroopa Tirumalareddy"/>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Swaroopa TirumalaReddy">
-    <meta name="description" content="This is my developer page.">
-    <title>Swaroopa TirumalaReddy Module 2</title>
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- https://mdbootstrap.com/md-bootstrap-cdn/ -->
+        <!-- Material Design for Bootstrap fonts and icons -->
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/css/mdb.min.css" rel="stylesheet">
 
-<link href="./css/swaroopa.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/swaroopa.css">
+    </head>
+    <body>
+        <header>
+        </header>
+        <nav></nav>
+        <hr/>
+        <main class="container">
+            <article>
+                <h1>Contact Me!</h1>
+                <form method="POST">
+                    First name:
+                    <input type="text" name="firstname"><br><br>
+                    Last name:
+                    <input type="text" name="lastname"><br><br>
+                    Email:
+                    <input type="text" name="email"><br><br>
+                    Message:
+                    <input type="text" name="message" size="35"><br><br>
+                    <input type="submit" name="Submit" value="Submit">
+                </form>
+            </article>
+        </main>
+        <hr/>
+        <footer>
+            <p>&copy; 2020 Swaroopa Tirumalareddy, all rights reserved.</p>
+        </footer>
 
-</head>
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.12.0/js/mdb.min.js"></script>
+    </body>
 
-
-<body>
-    <nav class="navbar">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-              <img id="nav_profile_pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9EOPAEicA565IBbWRnw07XnfrUgAiLUrxflfAI_nQc_2CWNOjGw&s" alt="profile picture">
-            </a>
-          </div>
-          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="./index.html">Index</a></li>
-              <li><a href="./contact.html">Contact</a></li>
-              <li><a href="./checkout_form.html">checkout</a></li>
-            </ul>
-            </div>
-        </div>
-      </nav>
-    <main class="container">
-        <section class="row">
-            <div class="col-md-6">
-                <h2>Fill details to contact Swaroopa</h2>
-        <form>
-            <label>First Name:</label>
-            <br>
-            <input type  = "text" name = "firstname">
-            <br>
-            <label>Last Name:</label>
-            <br>
-            <input type  = "text" name = "lastname">
-            <br>
-            <label>Phone Number:</label>
-            <br>
-            <input type = "email" name = "phone number">
-            <br>
-            <label>Email Id:</label>
-            <br>
-            <input type = "text" name = "emailid">
-            <br>
-            <input type = "submit" value ="submit">
-            <br>
-        </form>
-            </div>
-        </section>
-    </main>
-    <footer class="container" id="foot">
-        <div class="text-center">Web page designer for this site is Swaroopa TirumalaReddy
-        <br>
-        &copy; 2020 Swaroopa TirumalaReddy</div>
-    </footer>
+    <div class="navbar">
+        P3 Client-Side App
+        <a href="index.html" rel="noopener">Home</a>
+        <a href="checkout_form.html" rel="noopener">Interaction</a>
+        <a href="contact.html" rel="noopener">Contact</a>
+        <a href="test/qunit.html" rel="noopener">QUnit</a>
+      </div>
 </html>
