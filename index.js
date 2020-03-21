@@ -4,6 +4,7 @@ console.log('INFO: Getting access to elements');
 
 console.log('INFO: Configuring event handlers');
 
+
 const jokeURI = 'https://api.icndb.com/jokes/random?limitTo=[nerdy]'
 
 // fetch information
